@@ -1377,16 +1377,17 @@
           <div class="proj-bar"></div>
           <div class="proj-bg-num">01</div>
           <div class="proj-label">Generative AI &mdash; Research</div>
-          <div class="proj-title">GAN-Based Anomaly Detection</div>
+          <div class="proj-title">Network-Anomaly-Detection</div>
           <div class="proj-desc">
            
-             Evaluated GANs for network traffic anomaly detection on CICIDS 2017
-            (~3M records). Applied PCA, stratified sampling, cross-validation.
-            Benchmarked vs CNN for critical architectural insights.
+             Explored GAN and 1D CNN approaches for network anomaly detection using CICIDS 2017 
+            (~3M records). Applied data cleaning, PCA, SMOTE and Cross-Validation 
+            while evaluating model performance under class imbalance and computational constraints.
           </div>
           <div class="proj-result">
-            Key finding: CNN outperforms GANs on high-dimensional imbalanced
-            data
+            Key finding: Model selection should be driven by dataset characteristics, 
+            class imbalance and observed training behaviour rather than architectural complexity alone.
+            
           </div>
           <div class="proj-stack">
             <span class="proj-chip">PyTorch</span>
